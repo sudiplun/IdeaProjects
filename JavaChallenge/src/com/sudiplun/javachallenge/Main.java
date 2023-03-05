@@ -174,7 +174,7 @@ public class Main {
 
     private static void addContact() {
         System.out.println("Adding a new contact..." +
-                "\nPlease enter the contact's name:");
+                "\n Please enter the contact's name:");
         String name = scanner.next();
         System.out.println("Enter contact's number");
         String number = scanner.next();
