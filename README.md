@@ -1,3 +1,3 @@
 # IdeaProjects
-Learning on the IDE of JAVA
+Learning on the IDE of JAVA <br>
 JAVA is awesome.

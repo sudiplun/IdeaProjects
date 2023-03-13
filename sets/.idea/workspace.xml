@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf15bf76-98b1-4f5e-8e49-5cebfccf62b4" name="Changes" comment="" />
+    <list default="true" id="eeb6d9f3-ce50-4861-a4d1-24cb51775f68" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +20,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2MRgVtPTUscufBZ6YOiCONUdbkN" />
+  <component name="ProjectId" id="2MmdfFwK0OIsdtjxjOfhaLBmaZG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,17 +29,20 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "com.maddyhome.idea.vim.ui.VimEmulationConfigurable"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bf15bf76-98b1-4f5e-8e49-5cebfccf62b4" name="Changes" comment="" />
-      <created>1677735836103</created>
+      <changelist id="eeb6d9f3-ce50-4861-a4d1-24cb51775f68" name="Changes" comment="" />
+      <created>1678376793414</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1677735836103</updated>
+      <updated>1678376793414</updated>
     </task>
     <servers />
   </component>

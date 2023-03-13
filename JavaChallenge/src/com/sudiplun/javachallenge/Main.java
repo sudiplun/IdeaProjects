@@ -15,7 +15,7 @@ public class Main {
 
     }
    private static void showInitialOptions(){
-       System.out.println("""
+      System.out.println("""
                Main Menu select one of menu:
                \t1. Manage Contacts
                \t2. Messages
@@ -31,7 +31,7 @@ public class Main {
                break;
            default:
                break;
-       }
+      }
    }
     private static void manageMessage(){
         System.out.println("""
@@ -53,7 +53,7 @@ public class Main {
     }
 
     private static void sendMessage() {
-        System.out.println("Enter the name of contect?");
+        System.out.println("Enter the name of contact?");
         String name = scanner.next();
         if (name.equals("")){
             System.out.println("please enter name of receiver.");
@@ -112,65 +112,7 @@ public class Main {
                \t2. Add a new contact
                \t3. Search for a contact
                \t4. Delete a contact
-               \t5. Go Back""");
-       int choice = scanner.nextInt();
-       switch (choice){
-           case 1:
-               showAllContacts (); 
-               break;
-           case 2:
-               addContact();
-           case 3:
-               searchContact();
-           case 4:
-               deleteContact();
-           default:
-               showInitialOptions();
-               break;
-       }
-   }
-
-    private static void deleteContact() {
-        System.out.println("Enter the contact's name:");
-        String name = scanner.next();
-        if (name.equals("")){
-            System.out.println("Please enter the name");
-            deleteContact();
-        }else {
-            boolean doesExit = false;
-            for (Contact c:contacts){
-                if (c.getName().equals(name)){
-                    doesExit = true;
-                    contacts.remove(c);
-                }
-            }
-            if(!doesExit){
-                System.out.println("There is no such contact in your contact");
-            }
-        }
-        showInitialOptions();
-    }
-
-    private static void searchContact() {
-        System.out.println("Enter the contact name:");
-        String name = scanner.next();
-        if (name.equals("")){
-            System.out.println("Please enter the name");
-            searchContact();
-        }else {
-            boolean doesExit = false;
-           for (Contact c:contacts){
-               if (c.getName().equals(name)){
-                   doesExit = true;
-                   c.getDetails();
-               }
-           }
-           if(!doesExit){
-               System.out.println("There is no such contact in your contact");
-           }
-        }
-        showInitialOptions();
-    }
+               \t5. Exit
 
     private static void addContact() {
         System.out.println("Adding a new contact..." +
